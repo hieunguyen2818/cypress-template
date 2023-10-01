@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["es5", "dom"],
+  },
+  "include": [
+    "cypress/e2e/test/*.ts"  // Thay đổi đường dẫn và mô đun tệp của bạn theo dự án của bạn
+  ]
+}
