@@ -1,0 +1,20 @@
+{
+  "name": "cypress-self-study",
+  "version": "1.0.0",
+  "description": "Cypress self-study ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cypress",
+    "study"
+  ],
+  "author": "Nicholas",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.7",
+    "cypress": "^11.1.0",
+    "typescript": "^5.2.2"
+  }
+}
