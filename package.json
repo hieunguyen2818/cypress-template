@@ -4,7 +4,7 @@
   "description": "Cypress self-study ",
   "main": "index.js",
   "scripts": {
-    "login": "npx cypress run --browser=chrome --headless --spec cypress/e2e/test/login.cy.ts"
+    "login": "npx cypress run --spec cypress/e2e/test/login.cy.ts"
   },
   "keywords": [
     "cypress",

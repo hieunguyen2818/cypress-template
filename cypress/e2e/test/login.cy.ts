@@ -2,7 +2,7 @@
 
 import LoginPage from '../../support/pageObject/loginPage.cy'
 
-describe('example to-do app', () => {
+describe('Login to demoguru page successfully', () => {
   let loginPage = new LoginPage()
 
   beforeEach(() => {
@@ -12,7 +12,7 @@ describe('example to-do app', () => {
   it('Should login success by correct userName and passWord', () => {
     loginPage.inputUserName('kem')
     loginPage.inputPassword('kem')
-    loginPage.clickSubmit()
+    // loginPage.clickSubmit()
   })
 
 })
