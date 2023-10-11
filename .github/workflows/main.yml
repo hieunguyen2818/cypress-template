@@ -6,13 +6,10 @@ on:
       - '**'
 
 jobs:
-  test-Bankguru:
+  build:
     name: Test Bankguru
     timeout-minutes: 30
     runs-on: ubuntu-latest
-    permissions:
-      contents: "read"
-      id-token: "write"
 
     steps:
     - name: Checkout repository

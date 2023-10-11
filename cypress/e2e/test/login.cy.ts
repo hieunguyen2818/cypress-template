@@ -13,6 +13,7 @@ describe('Login to demoguru page successfully', () => {
     loginPage.inputUserName('kem')
     loginPage.inputPassword('kem')
     // loginPage.clickSubmit()
+    console.log("test passed !")
   })
 
 })
