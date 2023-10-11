@@ -29,3 +29,5 @@ jobs:
       run: |
         cd cypress
         npm install
+        npm run login
+
