@@ -9,11 +9,14 @@ module.exports = defineConfig({
   },
 
   env: {
+    hideXhr: true,
+    grepFilterSpecs: true,
+    
     QA: {
       baseUrl: 'https://demo.guru99.com/v4/',
       userName: 'admin',
       passWord: 'Password1@'
-    }
+    },
   },
 
   defaultCommandTimeout: 100000,

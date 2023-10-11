@@ -1,0 +1,31 @@
+name: test web
+
+on:
+  push:
+    branches:
+      - '**'
+
+jobs:
+  test-Bankguru:
+    name: Test Bankguru
+    timeout-minutes: 30
+    runs-on: ubuntu-latest
+    permissions:
+      contents: "read"
+      id-token: "write"
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Use Node.js 16.x
+      uses: actions/setup-node@v3
+      with:
+        node-version: 16
+
+    - name: Install dependencies
+
+    - name: E2E test
+      run: |
+        cd cypress
+        npm install
