@@ -6,6 +6,7 @@ module.exports = defineConfig({
       // implement node event listeners here
     },
     specPattern: "cypress/e2e/**/*.ts",
+    baseUrl: 'https://todoist.com/',
   },
 
   env: {
@@ -13,7 +14,7 @@ module.exports = defineConfig({
     grepFilterSpecs: true,
     
     QA: {
-      baseUrl: 'https://demo.guru99.com/v4/',
+      baseUrl: 'https://todoist.com/',
       userName: 'admin',
       passWord: 'Password1@'
     },

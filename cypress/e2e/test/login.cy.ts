@@ -6,14 +6,14 @@ describe('Login to demoguru page successfully', () => {
   let loginPage = new LoginPage()
 
   beforeEach(() => {
-    cy.visit('https://demo.guru99.com/v4/')
+    cy.visit('auth/login')
   })
 
   it('Should login success by correct userName and passWord', () => {
-    loginPage.inputUserName('kem')
-    loginPage.inputPassword('kem')
-    // loginPage.clickSubmit()
-    console.log("test passed !")
+    loginPage.inputUserName('nicholas@mailsac.com')
+    loginPage.inputPassword('Password1@')
+    loginPage.clickSubmit()
+    cy.url().should('include', 'app/today');
   })
 
 })
